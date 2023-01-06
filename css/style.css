@@ -3,7 +3,7 @@
     font-family: 'Lato', sans-serif;
 }
 .section{
-    margin: 0 220px;
+    margin: 0 200px;
 }
 /* header section */
 .header-section{
@@ -68,4 +68,105 @@
 .desc-item p{
                 font-size: 14px;
                 color: rgba(14, 14, 14, 0.63);
+}
+/* My Plan Section */
+.plan-content{
+    margin-top: 130px;
+}
+.plan-header{
+                text-align: center;
+                font-size: 35px;
+                font-weight: 900;
+                margin-bottom: 80px;
+}
+
+.plan-content-items{
+    display: flex;
+    gap: 90px;
+    text-align: center;
+}
+.plan-items img{
+    margin-bottom: 18px;
+}
+.plan-items h2{
+    margin-bottom: 22px;
+    font-weight: 900;
+}
+.plan-items p{
+    font-size: 22px;
+    color: rgba(14, 14, 14, 0.63);
+}
+
+.plan-call{
+    background: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(32, 43, 40, 0.73)),
+    url(../images/watch.png);
+    margin-top: 130px;
+    margin-bottom: 200px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.plan-call-header{
+    color: #ffffff;
+    padding-top: 60px;
+    padding-right: 500px;
+    padding-left: 40px;
+    font-size: 35px;
+}
+.plan-call a{
+    padding-left: 40px;
+}
+.call-btn{
+    background-color: #ffffff;
+    padding: 18px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    margin-top: 22px;
+    color: rgb(255, 75, 20);
+    border-radius: 3px;
+}
+/* Footer Section */
+
+footer{
+    background-color: #000000ec;
+    color: #ffffff;
+}
+.footer-section{
+    display: flex;
+    gap: 280px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.footer-left-header{
+    margin-bottom: 20px;
+}
+.footer-left-desc{
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.footer-img a{
+    margin-right: 10px;
+}
+.footer-right h2{
+    margin-bottom: 25px;
+}
+.footer-right input{
+    width:220px;
+    height: 30px;
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    color: white;
+}
+.subscribe{
+    background-color: #ffffff;
+    color: rgb(255, 103, 33);
+    padding: 12px 28px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 20px;
 }
